@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- SEO & Professional Identity -->
+  <meta name="description"
+    content="Divyanshu Prajapati (DSP) - A Full-Stack Developer creating scalable, robust web applications." />
+  <meta name="keywords"
+    content="Full-Stack Developer, MERN stack, web developer portfolio, React, Express, MongoDB, UI/UX, Divyanshu, DSP, software engineer" />
+  <meta name="author" content="Divyanshu (DSP)" />
+
+  <!-- Open Graph/Social -->
+  <meta property="og:title" content="codeWithDSP | Full-Stack Developer" />
+  <meta property="og:description"
+    content="Divyanshu's professional portfolio. Discover robust, modern web architectures." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://codewithdsp.com" />
+
+  <title>codeWithDSP | Full-Stack Developer</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- FontAwesome for WhatsApp icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">CodeWith<span>DSP</span></a>
+
+    <button class="menu-toggle" id="menu-icon" aria-label="Toggle navigation">
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </button>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="home__inner">
+        <div class="home__content reveal-left">
+          <p class="home__eyebrow">Hey, I’m</p>
+          <h1 class="home__title">Divyanshu <span>(DSP)</span></h1>
+          <h2 class="home__subtitle">Full‑Stack Developer</h2>
+          <p class="home__description">
+            I architect and build scalable, secure, and modern web applications. Specialized in the MERN stack, I focus
+            on delivering high-performance solutions with exceptional user experiences.
+          </p>
+
+          <div class="home__actions">
+            <a href="#projects" class="btn btn--primary hover-lift">
+              <span>View my work</span>
+              <i class='bx bx-right-arrow-alt'></i>
+            </a>
+            <a href="#contact" class="btn btn--ghost hover-lift">
+              <span>Hit me up</span>
+            </a>
+          </div>
+
+          <div class="home__social">
+            <a href="#" class="hover-glow" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" class="hover-glow" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="hover-glow" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="hover-glow" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+
+        <div class="home__visual reveal-right">
+          <div class="home__avatar-card float-anim tech-avatar">
+            <img src="dsp2.png" alt="Divyanshu" class="avatar-img" />
+            <p class="home__badge">
+              <span class="status-dot"></span> Available for freelance & projects
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__header reveal-up">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p class="section__subtitle">
+          A quick intro to who I am and how I work.
+        </p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text glass-card reveal-left">
+          <h3 class="about__title">
+            Software Engineer & Tech Enthusiast
+          </h3>
+          <p>
+            My journey into software development stems from a profound curiosity about systems architecture and complex
+            problem-solving. Through rigorous study and hands-on project building, I've developed a robust foundation in
+            modern web technologies.
+          </p>
+          <p>
+            I take pride in writing clean, maintainable code to craft interfaces that are not only visually striking but
+            also incredibly performant. My workflow prioritizes scalable database design and highly responsive,
+            accessible frontends.
+          </p>
+          <p>
+            Professionally known as <span>DSP</span> (Divyanshu Prajapati), I am constantly expanding my technical
+            repertoire to stay at the cutting edge of full-stack engineering.
+          </p>
+        </div>
+
+        <div class="about__stats reveal-right">
+          <div class="stat-card glass-card hover-lift" style="--delay: 1">
+            <div class="stat-icon"><i class='bx bx-time'></i></div>
+            <div class="stat-info">
+              <p class="stat-card__label">Experience</p>
+              <p class="stat-card__value">2+ years</p>
+              <p class="stat-card__hint">learning & building projects</p>
+            </div>
+          </div>
+          <div class="stat-card glass-card hover-lift" style="--delay: 2">
+            <div class="stat-icon"><i class='bx bx-code-block'></i></div>
+            <div class="stat-info">
+              <p class="stat-card__label">Tech focus</p>
+              <p class="stat-card__value">MERN + UI</p>
+              <p class="stat-card__hint">full‑stack & design</p>
+            </div>
+          </div>
+          <div class="stat-card glass-card hover-lift" style="--delay: 3">
+            <div class="stat-icon"><i class='bx bx-planet'></i></div>
+            <div class="stat-info">
+              <p class="stat-card__label">Collaboration</p>
+              <p class="stat-card__value">Remote</p>
+              <p class="stat-card__hint">open to freelance work</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="section__header reveal-up">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <p class="section__subtitle">
+          How I’ve been learning development and tech.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__column glass-card reveal-up" style="--delay: 1">
+          <h3 class="timeline__title"><i class='bx bxs-graduation'></i> Education & Learning</h3>
+
+          <article class="timeline__item">
+            <p class="timeline__year">
+              <i class="bx bx-calendar"></i> 2019 – 2020
+            </p>
+            <h4 class="timeline__heading">
+              Frontend Development – Self‑taught
+            </h4>
+            <p>
+              Learned HTML, CSS and basic JavaScript from online resources
+              like W3Schools, Stack Overflow and YouTube tutorials. Built
+              small landing pages and UI experiments.
+            </p>
+          </article>
+
+          <article class="timeline__item">
+            <p class="timeline__year">
+              <i class="bx bx-calendar"></i> 2021 – 2022
+            </p>
+            <h4 class="timeline__heading">
+              Backend & Databases – In progress
+            </h4>
+            <p>
+              Started exploring Node.js, Express and MongoDB. Focused on
+              understanding REST APIs, authentication and how to structure
+              simple full‑stack projects.
+            </p>
+          </article>
+
+          <article class="timeline__item">
+            <p class="timeline__year">
+              <i class="bx bx-calendar"></i> 2023 – now
+            </p>
+            <h4 class="timeline__heading">Full‑Stack & Best Practices</h4>
+            <p>
+              Working on MERN‑stack style apps, improving code structure,
+              version control (Git/GitHub) and deployment basics, while
+              continuing school studies.
+            </p>
+          </article>
+        </div>
+
+        <div class="timeline__column glass-card reveal-up" style="--delay: 2">
+          <h3 class="timeline__title"><i class='bx bx-briefcase-alt-2'></i> Projects & Experience</h3>
+
+          <article class="timeline__item">
+            <p class="timeline__year">
+              <i class="bx bx-code-alt"></i> Personal projects
+            </p>
+            <h4 class="timeline__heading">Frontend clones & UIs</h4>
+            <p>
+              Re‑created popular websites and dashboards to practice layout,
+              responsive design and animations, focusing on pixel‑perfect
+              cloning and clean components.
+            </p>
+          </article>
+
+          <article class="timeline__item">
+            <p class="timeline__year">
+              <i class="bx bx-code-alt"></i> Practice apps
+            </p>
+            <h4 class="timeline__heading">Full‑stack experiments</h4>
+            <p>
+              Built small apps like TODO lists, landing pages with contact
+              forms and simple dashboards using HTML/CSS/JS and basic Node.js
+              backends.
+            </p>
+          </article>
+
+          <article class="timeline__item">
+            <p class="timeline__year">
+              <i class="bx bx-user"></i> Next steps
+            </p>
+            <h4 class="timeline__heading">Open to opportunities</h4>
+            <p>
+              Looking for internships, freelance work or collaborations where
+              I can contribute, learn from experienced developers and grow
+              faster.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="section__header reveal-up">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <p class="section__subtitle">
+          A snapshot of the technologies and areas I’m comfortable with.
+        </p>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skills__column glass-card reveal-left">
+          <h3 class="skills__title"><i class='bx bx-code-curly'></i> Technical skills</h3>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bxl-html5'></i> Web development</span>
+              <span>Intermediate</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="80%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bxl-react'></i> Frontend (HTML, CSS, JS)</span>
+              <span>Intermediate</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="75%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bxl-nodejs'></i> Backend (Node.js, Express)</span>
+              <span>Learning</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="60%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bxl-mongodb'></i> Databases (MongoDB, NoSQL)</span>
+              <span>Learning</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="65%"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__column glass-card reveal-right">
+          <h3 class="skills__title"><i class='bx bx-brain'></i> Professional skills</h3>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bx-palette'></i> UI/UX thinking</span>
+              <span>Growing</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="70%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bx-bug'></i> Problem solving & DSA</span>
+              <span>Intermediate</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="65%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bx-group'></i> Collaboration & communication</span>
+              <span>Good</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="75%"></span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill__label">
+              <span><i class='bx bx-message-rounded-dots'></i> Content & tech explaining</span>
+              <span>Good</span>
+            </div>
+            <div class="skill__bar">
+              <span class="skill-fill" data-progress="70%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section__header reveal-up">
+        <h2 class="heading">Selected <span>Projects</span></h2>
+        <p class="section__subtitle">
+          Some of the things I’ve built while learning.
+        </p>
+      </div>
+
+      <div class="projects__grid">
+        <article class="project-card glass-card reveal-up" style="--delay: 1">
+          <div class="project-card__icon" aria-hidden="true">
+            <i class="bx bx-store"></i>
+          </div>
+          <h3 class="project-card__title">E‑commerce UI clone</h3>
+          <p class="project-card__description">
+            A responsive storefront layout inspired by Amazon to practice grid
+            systems, product cards and navigation.
+          </p>
+          <div class="project-card__tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal-up" style="--delay: 2">
+          <div class="project-card__icon" aria-hidden="true">
+            <i class="bx bx-user-circle"></i>
+          </div>
+          <h3 class="project-card__title">Developer portfolio</h3>
+          <p class="project-card__description">
+            A clean personal website to showcase skills, projects and contact
+            information (this site, iterated over time).
+          </p>
+          <div class="project-card__tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal-up" style="--delay: 3">
+          <div class="project-card__icon" aria-hidden="true">
+            <i class="bx bx-layer"></i>
+          </div>
+          <h3 class="project-card__title">UI component library</h3>
+          <p class="project-card__description">
+            Reusable buttons, cards and layout components to speed up future
+            projects and keep design consistent.
+          </p>
+          <div class="project-card__tags">
+            <span>CSS</span>
+            <span>Design</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section__header reveal-up">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <p class="section__subtitle">
+          Tell me about your idea, and I’ll get back to you.
+        </p>
+      </div>
+
+      <div class="contact__methods reveal-scale">
+        <!-- Direct Email Button -->
+        <a href="mailto:divyanshu.entrep@gmail.com" class="btn btn--primary hover-lift contact-btn">
+          <i class='bx bx-envelope'></i>
+          <span>Direct Email</span>
+        </a>
+        <!-- Direct Call Button -->
+        <a href="tel:+918208020933" class="btn btn--ghost hover-lift contact-btn">
+          <i class='bx bx-phone'></i>
+          <span>Direct Call</span>
+        </a>
+        <!-- Direct WhatsApp Button -->
+        <a href="https://wa.me/918208020933" target="_blank" class="btn hover-lift contact-btn whatsapp-pill-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp Me</span>
+        </a>
+      </div>
+
+      <!-- FormSubmit API Integration -->
+      <form class="contact__form glass-card reveal-up" action="https://formsubmit.co/divyanshu.entrep@gmail.com" method="POST"
+        style="margin-top: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        
+        <!-- FormSubmit Configurations -->
+        <input type="hidden" name="_subject" value="New Contact Request from Portfolio!">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <h3
+          style="text-align: center; margin-bottom: 24px; color: var(--text-light); font-family: var(--font-heading);">
+          Or drop a message</h3>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="name">Full Name</label>
+            <div class="input-wrapper">
+              <i class='bx bx-user'></i>
+              <input id="name" name="name" type="text" placeholder="John Doe" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="form__row">
+          <div class="form__field">
+            <label for="email">Email Address</label>
+            <div class="input-wrapper">
+              <i class='bx bx-envelope'></i>
+              <input id="email" name="email" type="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="form__row form__row--full">
+          <div class="form__field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
+          </div>
+        </div>
+
+        <div class="form__actions" style="margin-top: 20px;">
+          <button type="submit" class="btn btn--primary hover-lift" style="width: 100%;">
+            <span>Send Message</span>
+            <i class='bx bx-send'></i>
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <a href="#home" class="logo">CodeWith<span>DSP</span></a>
+      <p class="footer__text">
+        &copy; 2026 CodeWithDSP. Built with passion, caffeine, and a lot of learning.
+      </p>
+    </div>
+    <a href="#home" class="footer__top hover-lift" aria-label="Back to top">
+      <i class="bx bx-up-arrow-alt"></i>
+    </a>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918208020933" target="_blank" class="whatsapp-float hover-lift" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
